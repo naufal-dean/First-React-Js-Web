@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header div {
+  display: inline-block;
+  margin: auto 10px;
+}
+
+.headerMenu {
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.headerMenu a {
+  color: white;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}

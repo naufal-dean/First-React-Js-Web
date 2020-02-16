@@ -1,0 +1,13 @@
+.welcome {
+  background-color: black;
+  margin: 0;
+  padding: 15px 15px;
+  height: 40px;
+}
+
+.welcome header {
+  color: #0e6b0e;
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  text-align: center;
+}
