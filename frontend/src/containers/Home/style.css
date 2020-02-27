@@ -1,0 +1,22 @@
+.mainImg {
+  display: block;
+  height: 485px;
+  margin: auto;
+}
+
+.gearImg {
+  animation: rotation 8s infinite linear;
+  left: 669px;
+  top: 430px;
+  position: absolute;
+  width: 110px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

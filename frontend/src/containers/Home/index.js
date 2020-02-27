@@ -1,24 +1,18 @@
-import React from 'react';
-import { useParams } from "react-router-dom";
+import React from "react";
 
-import './style.css';
-import Header from "../../components/Header";
-import Welcome from "../../components/Welcome";
-import Construction from "../../images/construction.jpg";
+import "./style.css";
+import Construction from "../../images/construction.png";
+import Gear from "../../images/gear.png";
 
-const Home = (props) => {
-  const { text } = useParams();
+const Home = props => {
   return (
     <div>
-      <div className="App">
-        <Welcome text={text} />
-        <Header />
-      </div>
       <div>
-        <img src={Construction} alt="Under construction" className="image" />
+        <img src={Construction} alt="Under construction" className="mainImg" />
+      <img src={Gear} alt="Gear" className="gearImg" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

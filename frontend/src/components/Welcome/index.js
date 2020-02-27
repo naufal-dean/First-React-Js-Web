@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 
 const Welcome = (props) => {
-  const text = props.text || "Welcome to the Nightmare's website!!!";
+  const text = "Welcome to the Nightmare's website!!!";
   const [idx, setIdx] = useState(0);
 
   useEffect(() => {
