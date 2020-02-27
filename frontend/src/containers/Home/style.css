@@ -1,22 +1,43 @@
 .mainImg {
-  display: block;
   height: 485px;
   margin: auto;
+  position: absolute;
+  left: 360px;
+  z-index: 1;
 }
 
 .gearImg {
   animation: rotation 8s infinite linear;
+  position: absolute;
   left: 669px;
   top: 430px;
-  position: absolute;
   width: 110px;
+  z-index: 2;
+}
+
+.gearBackImg {
+  animation: rotationBack 24s infinite linear;
+  position: absolute;
+  left: 785px;
+  top: 315px;
+  width: 125px;
+  z-index: 0;
 }
 
 @keyframes rotation {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(359deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(359deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
