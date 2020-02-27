@@ -10,12 +10,20 @@
 
 .headerMenu {
   margin: 0;
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 
-.headerMenu a {
+.headerMenu li {
   color: white;
   display: inline-block;
   margin: 0 10px;
+}
+
+.link {
+  color: white;
   text-decoration: none;
+}
+
+.link:hover {
+  color: #0e6b0e;
 }
